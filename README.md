@@ -22,6 +22,7 @@ At the prompt type /sealert and copy the sealert -l <message-id>
 Jan  5 17:29:37 serverb setroubleshoot[30571]: SELinux is preventing /usr/sbin/httpd from getattr access on the file /lab-content/lab.html. For complete SELinux messages run: sealert -l 021384f0-66e2-4054-81d4-3b358d1f759e
 Jan  5 17:29:37 serverb setroubleshoot[30571]: SELinux is preventing /usr/sbin/httpd from getattr access on
 ...
+```
 
 Type q to quit the less command and look up the sealert message
 ```
